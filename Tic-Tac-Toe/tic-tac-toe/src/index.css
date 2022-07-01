@@ -23,7 +23,7 @@ ul {
     border: 1px solid #999;
     float: left;
     font-size: 60px;
-    font-weight: bold;
+    font-weight: 700;
     width: 150px;
     height: 150px;
     margin-right: -1px;
@@ -49,4 +49,17 @@ ul {
 .game-info {
     margin-left: 20px;
     font-size: 26px;
+}
+
+.currentStep {
+    font-weight: bold;
+}
+
+li button.currentStep {
+    font-size: 18px;
+}
+
+.winningSquare {
+    font-weight: bold;
+    color: green;
 }
